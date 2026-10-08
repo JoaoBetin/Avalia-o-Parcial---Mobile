@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lista organizadora.</string>
+    <string name="eyebrow">MENOS ESQUECIMENTOS, MAIS TRANQUILIDADE</string>
+    <string name="home_title">Tudo pronto\npara sair?</string>
+    <string name="home_description">Escolha uma lista e confira o que vai com você.</string>
+    <string name="lists_heading">Suas listas</string>
+    <string name="home_note">Listas prontas para facilitar sua próxima saída.</string>
+    <string name="list_number">%1$02d</string>
+    <string name="item_count">Itens: %1$d · Abrir lista →</string>
+    <string name="back">← Voltar às listas</string>
+    <string name="progress_count">Conferidos: %1$d de %2$d</string>
+    <string name="keep_checking">Um item de cada vez.</string>
+    <string name="all_ready">Tudo conferido</string>
+    <string name="reset">Desmarcar todos</string>
+    <string name="session_note">As marcações valem enquanto esta lista estiver aberta. Ao sair dela, você pode começar de novo.</string>
+    <string name="not_found">Lista não encontrada</string>
+    <string name="not_found_description">Volte e escolha uma das listas disponíveis.</string>
+</resources>

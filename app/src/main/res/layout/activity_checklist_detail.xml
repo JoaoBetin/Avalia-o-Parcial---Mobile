@@ -1,0 +1,14 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+        <Button android:id="@+id/back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/back" android:textAllCaps="false" style="?android:attr/borderlessButtonStyle" android:textColor="@color/accent" />
+        <TextView android:id="@+id/title" style="@style/Heading" android:layout_marginTop="20dp" />
+        <TextView android:id="@+id/description" style="@style/Body" android:layout_marginTop="12dp" />
+        <LinearLayout android:id="@+id/progressPanel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_marginBottom="24dp" android:orientation="vertical" android:background="@drawable/soft_bg" android:padding="20dp">
+            <TextView android:id="@+id/progress" style="@style/Heading" android:textSize="20sp" android:accessibilityLiveRegion="polite" />
+            <TextView android:id="@+id/status" style="@style/Body" android:layout_marginTop="6dp" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/itemsContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" />
+        <Button android:id="@+id/reset" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:layout_marginTop="16dp" android:text="@string/reset" android:textAllCaps="false" android:textColor="@color/accent" style="?android:attr/borderlessButtonStyle" />
+        <TextView android:id="@+id/sessionNote" style="@style/Body" android:layout_marginTop="12dp" android:text="@string/session_note" android:textSize="13sp" />
+    </LinearLayout>
+</ScrollView>
